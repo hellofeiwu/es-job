@@ -1,6 +1,0 @@
-com\imooc\config\MySimpleJobConfig.class
-com\imooc\config\JobEventConfig.class
-com\imooc\listener\SimpleJobListener.class
-com\imooc\task\MySimpleJob.class
-com\imooc\Application.class
-com\imooc\config\RegistryCenterConfig.class
