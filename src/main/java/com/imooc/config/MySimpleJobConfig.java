@@ -30,7 +30,7 @@ public class MySimpleJobConfig {
     }
 
     @Bean(initMethod = "init")
-    public JobScheduler SimpleJobScheduler(
+    public JobScheduler simpleJobScheduler(
             final SimpleJob simpleJob,
             @Value("${simpleJob.cron}") final String cron,
             @Value("${simpleJob.shardingTotalCount}") final int shardingTotalCount,
